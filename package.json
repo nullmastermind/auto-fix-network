@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun --watch run src/index.ts"
+    "dev": "bun --watch run src/index.ts",
+    "build": "bun build --compile src/index.ts --outfile auto-fix-network"
   },
   "devDependencies": {
     "@types/axios": "^0.14.4",
