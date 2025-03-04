@@ -18,7 +18,7 @@ function reconnect() {
 async function main() {
   while (true) {
     try {
-      await axios.get("https://api.ipify.org/");
+      await axios.get("https://www.google.com/");
 
       console.log("Connection OK");
     } catch {
